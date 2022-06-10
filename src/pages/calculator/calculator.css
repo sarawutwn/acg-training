@@ -1,0 +1,94 @@
+.calcurate--element {
+  position: absolute;
+}
+
+.calcurate--text {
+  font-weight: 400;
+}
+
+.calcurate--text-span {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.calcurate--card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 750px;
+}
+.calcurate--card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.calcurate--container {
+  padding: 2px 16px;
+}
+.calcurate--card-title {
+  margin-top: 15px;
+  font-weight: 400;
+}
+.calcurate--formInput {
+  margin: 10px;
+}
+.calcurate--input {
+  margin: 10px;
+  border: 0;
+  z-index: 1;
+  background-color: transparent;
+  border-bottom: 2px solid #eee;
+  font: inherit;
+  font-size: 1.125rem;
+  padding: 0.25rem 0;
+  width: 680px;
+}
+.calcurate--input :focus,
+:valid {
+  outline: 0;
+  border-bottom-color: #6658d3;
+}
+
+.calcurate--btn {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(26, 31, 127);
+    border: 0;
+    width: 690px;
+    height: 45px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .calcurate--input {
+        width: 480px;
+    }
+    .calcurate--card {
+        width: 550px;
+    }
+    .calcurate--btn {
+        width: 490px;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .calcurate--input {
+        width: 375px;
+    }
+    .calcurate--card {
+        width: 440px
+    }
+    .calcurate--btn {
+        width: 385px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .calcurate--input {
+        width: 220px;
+    }
+    .calcurate--card {
+        width: 290px
+    }
+    .calcurate--btn {
+        width: 240px;
+    }
+}

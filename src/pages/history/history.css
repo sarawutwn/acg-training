@@ -1,0 +1,37 @@
+.history--element {
+    position: absolute;
+  }
+
+  .history--text {
+    font-weight: 400;
+  }
+  .history--text-span {
+    color: red;
+  }
+
+  .history--checkouttable {
+    background: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    width: 800px;
+    margin-top: 20px;
+  }
+  .history--table-head {
+    border-bottom: 2px solid #e3e3e3;
+    margin-bottom: 70px;
+  }
+
+  .history--table-body-data{
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .history--table-body-data .btn {
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(0, 102, 255);
+    border: 0;
+    width: 120px;
+    height: 35px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
