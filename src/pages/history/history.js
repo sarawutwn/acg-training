@@ -58,7 +58,7 @@ export default function History({ip}) {
             items.map((item) => (
               <tr key={item.id}>
                 <td className="history--table-body-data">
-                  {moment(item.createdAt).format("DD/MM/YYYY HH:MM:ss")}น.
+                  {moment(item.createdAt).format("DD/MM/YYYY HH:mm:ss")}น.
                 </td>
                 <td className="history--table-body-data">{item.start_value}</td>
                 <td className="history--table-body-data">{item.end_value}</td>
